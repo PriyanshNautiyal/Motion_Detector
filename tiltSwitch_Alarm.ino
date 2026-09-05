@@ -21,4 +21,8 @@ void loop() {
     digitalWrite(ledPin, HIGH);
     digitalWrite(buzzerPin, HIGH);
   }
+  else {
+    digitalWrite(ledPin, LOW);
+    digitalWrite(buzzerPin, LOW);
+  }
 }
